@@ -12,10 +12,10 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-            Card(color: Color("yellow"), index: 4, topCard: $topCard)
-            Card(color: Color("red"), index: 3, topCard: $topCard)
-            Card(color: Color("white"), index: 2, topCard: $topCard)
-            Card(color: Color("blue"), index: 1, topCard: $topCard)
+            Card(color: .yellow, index: 4, topCard: $topCard)
+            Card(color: .red, index: 3, topCard: $topCard)
+            Card(color: .white, index: 2, topCard: $topCard)
+            Card(color: .blue, index: 1, topCard: $topCard)
         }
         .preferredColorScheme(.dark)
         .statusBar(hidden: true)
